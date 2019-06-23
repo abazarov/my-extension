@@ -1,0 +1,11 @@
+{
+    "name": "bazarov/my-extension",
+    "description": "Simple extension",
+    "type": "library",
+    "require": {},
+	"autoload": {
+		"psr-4": {
+			"My\\Extensions\\": "Extensions/"
+		}
+	}
+}
